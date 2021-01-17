@@ -1,0 +1,263 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	 
+}
+body
+{
+	font-family: 'Merriweather', serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6
+{
+font-family: 'Montserrat', sans-serif;
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+}
+.banner
+{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+header
+{
+	padding: 25px;
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: repeat(2, auto);
+	transition: 0.9s;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+nav ul li
+{
+ display: inline-block;
+}
+nav ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+}
+nav ul li:last-child
+{
+	background: #20c9f3;
+	padding: 2px 5px;
+	border-radius: 2px;
+}
+.banner-content
+{
+	width: 56%;
+	color: #fff;
+	padding: 180px 100px;
+	font-family: 'Merriweather', Times, serif;
+}
+.banner-content h3
+{
+	
+    font-weight: 900;
+    font-size: 47px;
+    font-style: italic;
+}
+.banner-content p
+{
+	padding: 20px 0;
+	line-height: 1.7;
+}
+.btn
+{
+	background: #980560;
+	padding: 10px 15px; 
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+.banner-down
+{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	 
+}
+.banner-down-box
+{
+	padding: 30px 20px;
+	border-right: 1px solid #e1e1e1;
+	text-align: center;
+}
+.banner-down-box:first-child
+{
+	border-bottom: 5px solid #20c9f3;
+}
+.banner-down-box:nth-child(2)
+{
+	border-bottom: 5px solid red;
+}
+.banner-down-box:nth-child(3)
+{
+	border-bottom: 5px solid blue;
+}
+.red
+{
+	background: #000;
+}
+.wlc
+{
+	padding: 60px 0;
+	text-align: center;
+}
+.title
+{
+	font-size: 47px;
+	font-weight: 700;
+	padding: 20px 0;
+}
+.container
+{
+	width: 1170px;
+	margin: auto;
+}
+.wlc p
+{
+	line-height: 28px;
+}
+.wlcboxoutter
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+	grid-gap: 25px;
+	margin: 50px 0;
+}
+.wlcbox img
+{
+	width: 100%;
+}
+.wlcbox h3
+{
+	padding: 20px 0;
+}
+.world
+{
+	background: url(https://www.anarieldesign.com/themedemos/pena/wp-content/uploads/2016/02/second-block-bg-1_opt.jpg);
+	height: 550px;
+	text-align: center;
+}
+.innerbox
+{
+	width: 60%;
+	margin: 50px auto;
+	background: #fff;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.2);
+	padding: 5%;
+}
+.btn1
+{
+	background: #20c9f3;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	margin: 40px 0;
+}
+.counter
+{
+	padding: 50px 0;
+}
+.counterboxinner
+{
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 20px;
+}
+.counterboxinner h1
+{
+	padding: 20px 0;
+	font-size: 37px;
+	font-weight: 400;
+}
+.getto
+{
+	background: url(https://www.anarieldesign.com/themedemos/pena/wp-content/uploads/2016/02/pena-5_opt.jpg) no-repeat #20c9f3;
+	height: 550px;
+	background-size: 50% auto;
+	
+}
+.gettoinner
+{
+	display: grid;
+	grid-template-columns: 60% auto;
+	justify-content: end;
+	padding: 50px;
+}
+.getbox h3
+{
+	font-size: 23px;
+	padding: 20px 0; 
+}
+.blog
+{
+	padding: 50px 0;
+}
+.bloginner
+{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.bleft img
+{
+	width: 100%;
+}
+.blogleft
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 25px;
+}
+.watch
+{
+	padding: 100px 30px;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://www.anarieldesign.com/themedemos/pena/wp-content/uploads/2016/02/film3.jpg);
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+}
+
+footer
+{
+	background: #000;
+	color: #fff;
+	padding: 40px 0;
+}
+.footerboxinner
+{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 20px;
+}
+.footerboxinner .btn
+{
+  margin: 30px 0;
+  display: inline-block;
+}
+.footerboxinner h5
+{
+	padding: 20px 0;
+}
+.copyright
+{
+	padding: 10px 0;
+}
